@@ -83,7 +83,6 @@ btnEnviar.addEventListener('click',(e)=>{
     }).catch(err => {
         console.log(err.message)
         console.log(err.name)
-        console.log(err.number)
         alert("Algo salió mal. Verifique el nombre de usuario de GitHub")
         var inputs= document.querySelectorAll('input')
         inputs.forEach(el=>{
